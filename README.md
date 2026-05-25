@@ -1,1 +1,1 @@
-# avascript-Bootcamp-Tasks-1
+# Javascript-Bootcamp-Tasks-1
