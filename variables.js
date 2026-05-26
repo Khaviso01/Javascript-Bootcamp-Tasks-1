@@ -20,12 +20,15 @@ console.log("My other favourite color is " + favouriteColor);
 
 let num1 = 30;
 let num2 = 20;
-let sum = num1 + num2;
-let difference = num1 - num2;
-let product = num1 * num2;
-let quotient = num1 / num2;
 
+let sum = num1 + num2;
 console.log("The sum numbers is " + sum);
+
+let difference = num1 - num2;
 console.log("The difference is " + difference);
+
+let product = num1 * num2;
 console.log("The product is " + product);
+
+let quotient = num1 / num2;
 console.log("The quotient is " + quotient);

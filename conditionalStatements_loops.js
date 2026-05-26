@@ -1,5 +1,8 @@
 // Conditional Statements & Loops
 
+
+
+
 //Exercise 1: Temperature check
 
 //1
@@ -33,6 +36,10 @@ switch (true) {
         console.log("It's warm");
 }
 
+
+
+
+
 //Execrcise 2: Divisibility Check
 
 let number1 = parseInt(prompt("Enter a number: "));
@@ -64,6 +71,10 @@ switch (true) {
         console.log("Divisible by neither");
 }
 
+
+
+
+
 // Exercise 3: For loops
 
 //1
@@ -77,13 +88,12 @@ for (let c = 2; c <=20; c+= 2 ){
 };
 
 //3
-let sum_of_num = 0
-
-for (let z = 1; z <=100; z++ ){
-   sum_of_num += z;
+let sum_of_numbers = 0
+for (let z = 1; z <= 100; z++){
+    sum_of_numbers += z;
 };
 
-console.log(sum_of_num);
+console.log(sum_of_numbers);
 
 //4
 const number = [1, 2, 3, 4, 5];
@@ -93,7 +103,7 @@ for (let q = 0; q < number.length; q++){
 };
 
 //5 
-const numbers = [3, 7, 5, 10, 6]
+const numbers = [3, 7, 5, 10, 6];
 
 let largest = numbers[0];
 
@@ -106,18 +116,21 @@ for (let d = 1; d < numbers.length; d++){
 console.log(largest + " is the largest number");
 
 
+
+
+
 //Exercise 4: While loops
 
 //1
 let o = 1;
-while (o <= 10) {
+while (o <= 10){
     console.log(o);
     o++;
 };
 
 //2
 let l = 2;
-while (l <= 20) {
+while (1 <= 20){
     console.log(l);
     l += 2;
 };
@@ -126,19 +139,23 @@ while (l <= 20) {
 let sum = 0;
 let k = 1;
 
-while (k <= 100) {
+while (k <= 100){
     sum += k;
     k++;
-};
+}
 
-console.log("Sum of numbers from 1 to 100 is:", sum);
+console.log("sum of numbers is " + sum);
 
 //4
-let m = 5;
-while (m < 50) {
+let m = 5
+while (m < 50){
     console.log(m);
     m += 5;
-}
+};
+
+
+
+
 
 
 //Exercise 5
@@ -150,6 +167,8 @@ do {
     a++;
 } while (a <= 10);
 
+
+
 //2
 let total = 0;
 let b = 1;
@@ -159,23 +178,24 @@ do {
     b++;
 } while (b <= 100);
 
-console.log("Sum of numbers from 1 to 100 is:", total);
+console.log("Sum of 1 to 100 numbers is: " + total);
+
+
 
 //3
 let num;
 do {
-    num = parseInt(prompt("Enter a number greater than 10:"));
+    num = parseInt(prompt("Enter number greater than 10: "));
 } while (num <= 10);
 
-console.log("You entered:", num);
-
+console.log("You entered: " + num);
 
 //4
-const secretNumber = Math.floor(Math.random() * 10) + 1;
+const secretNum = Math.floor(Math.random() * 10) + 1;
 let guess;
 
 do {
-    guess = parseInt(prompt("Guess a number between 1 and 10:"));
-} while (guess !== secretNumber);
+    guess = parseInt(prompt("Guess a number that is 1 to 10: "));
+} while (guess !== secretNum);
 
-console.log("Correct! The secret number was:", secretNumber);
+console.log("Your secret number was: " + secretNum);

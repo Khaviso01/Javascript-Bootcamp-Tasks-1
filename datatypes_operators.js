@@ -4,16 +4,20 @@
 
 let num1 = 25;
 let num2 = 20.5;
-let add = num1 + num2;
-let sub = num1 - num2;
-let div = num1 / num2;
-let mod = num1 && num2;
-let numPow = num1 ** num2;
 
+let add = num1 + num2;
 console.log(add);
+
+let sub = num1 - num2;
 console.log(sub);
+
+let div = num1 / num2;
 console.log(div);
+
+let mod = num1 && num2;
 console.log(mod);
+
+let numPow = num1 ** num2;
 console.log(numPow);
 
 // Execrcise 2: Boolean and Operators
